@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+header {
+  background-color:  #75e2e6;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  margin-bottom: -330px;
+  position: relative;
+}
+
+.dog-icon{
+  height: 45px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.navigation {
+  color: white;
+  float: right;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-third h1{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.top-third {
+    background-image: url(../../images/park.jpg);
+    text-align: center;
+}
+
+.top-third img{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #048eaa;
+}
+
+.top-third h3{
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: #3F8DA7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #048eaa;
+}
+.center-part {
+  width: 100%;
+}
+.dog-columns{
+  width: 33.33333333%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.dog-columns img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #048eaa;
+  height: 180px;
+
+}
+
+.dog-columns p {
+  display: block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+
+
+.under-dog-heading {
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: #3F8DA7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #048eaa;
+  padding: 3px;
+}
+
+.clearfooter {
+height: 100px;
+clear: both;
+}
+
+footer {
+
+  color: white;
+  background-color: #048eaa;
+  height: 330px;
+  position: relative;
+  padding-top: 10px;
+}
+
+footer h3 {
+  display: block;
+  text-align: center;
+  padding-top: auto;
+  font-weight: bold;
+}
+
+footer li{
+  display: inline-block;
+  margin: 25px;
+  justify-content: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+footer h4 {
+  padding-bottom: 30px;
+  padding-left: 8px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
